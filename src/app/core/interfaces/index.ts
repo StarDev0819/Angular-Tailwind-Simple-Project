@@ -4,6 +4,6 @@ export interface Card {
     name: string,
     description: string,
     itemCount: number,
-    createDate: number,
+    createDate: string,
     avatars: string[]
 }
