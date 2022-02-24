@@ -24,9 +24,18 @@ export class TopCardsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
       this.loaded = false;
-      this.apiService.getCards().subscribe(
-        result => {
+      // this.apiService.getCards().subscribe(
+      //   result => {
+      //     this.cards = result;
+          
+      //     this.loaded = true;
+      //   }
+      // )
+      this.apiService.getCardsAlt().then(
+        (result: any) => {
           this.cards = result;
+
+          this.cards.sort((x, y) => +new Date(y.createDate) - +new Date(x.createDate));
           
           this.loaded = true;
         }
