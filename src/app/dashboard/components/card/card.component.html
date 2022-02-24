@@ -1,0 +1,22 @@
+<div class="card mb-8">
+    <figure class="rounded overflow-hidden mb-4">
+        <img [src]="card.imageUrl" class="w-full" alt="Card" />
+    </figure>
+    <div class="card-action flex justify-between mb-4">
+        <div class="flex avatars">
+            <img [src]="avatar" *ngFor="let avatar of card.avatars" class="rounded-full w-8 h-8 -mr-3" alt="Avatar" />
+        </div>
+        <div class="flex ">
+            <span class="mr-3">
+                <svg class="h-6 w-6 fill-stroke text-gray-500 hover:text-gray-800" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"></path>  <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg>
+            </span>
+            <span>
+                <svg class="h-6 w-6 fill-stroke text-gray-500 hover:text-gray-800" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"></path>  <line x1="4" y1="6" x2="20" y2="6"></line>  <line x1="4" y1="12" x2="20" y2="12"></line>  <line x1="4" y1="18" x2="20" y2="18"></line></svg>
+            </span>
+        </div>
+    </div>
+    <h4 class="mb-2">{{ card.name }}</h4>
+    <p class="mb-2 line-clamp-3">{{ card.description }}</p>
+    <p class="mb-2 text-gray-500 hover:text-gray-800">{{ card.itemCount }} items left</p>
+    <p class="mb-4 text-gray-500 hover:text-gray-800">{{ card.price }} USD</p>
+</div>

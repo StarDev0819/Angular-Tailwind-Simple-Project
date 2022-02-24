@@ -1,0 +1,98 @@
+[
+    {
+        "imageUrl": "/assets/images/card/item-1.jpg",
+        "price": 50,
+        "name": "John Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 5,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-2.jpg",
+        "price": 40,
+        "name": "Jane Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 4,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-3.jpg",
+        "price": 50,
+        "name": "John Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 5,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-4.jpg",
+        "price": 40,
+        "name": "Jane Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 4,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-5.jpg",
+        "price": 50,
+        "name": "John Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 5,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-6.jpg",
+        "price": 40,
+        "name": "Jane Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 4,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-7.jpg",
+        "price": 50,
+        "name": "John Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 5,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    },
+    {
+        "imageUrl": "/assets/images/card/item-8.jpg",
+        "price": 40,
+        "name": "Jane Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+        "itemCount": 4,
+        "createDate": "2022.02.24",
+        "avatars": [
+            "/assets/images/avatars/user-1.jpg",
+            "/assets/images/avatars/user-2.jpg"
+        ]
+    }
+]
