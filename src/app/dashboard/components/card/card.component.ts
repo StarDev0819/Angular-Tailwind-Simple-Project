@@ -17,7 +17,7 @@ export class CardComponent implements OnInit {
       name: '',
       description: '',
       itemCount: 0,
-      createDate: 0,
+      createDate: "",
       avatars: []
     }
   }
